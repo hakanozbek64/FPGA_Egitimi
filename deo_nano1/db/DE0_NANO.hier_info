@@ -1,0 +1,26 @@
+|DE0_NANO
+CLOCK_50 => ~NO_FANOUT~
+LED[0] <= full_adder_beh:fa.port3
+LED[1] <= full_adder_beh:fa.port4
+LED[2] <= <GND>
+LED[3] <= <GND>
+LED[4] <= <GND>
+LED[5] <= <GND>
+LED[6] <= <GND>
+LED[7] <= <GND>
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+SW[0] => a.IN1
+SW[1] => b.IN1
+SW[2] => cin.IN1
+SW[3] => ~NO_FANOUT~
+
+
+|DE0_NANO|full_adder_beh:fa
+A => Add0.IN1
+B => Add0.IN2
+Cin => Add1.IN4
+Sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

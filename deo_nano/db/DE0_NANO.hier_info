@@ -1,0 +1,27 @@
+|DE0_NANO
+CLOCK_50 => ~NO_FANOUT~
+LED[0] <= andor_str:inst1.port2
+LED[1] <= andor_str:inst1.port3
+LED[2] <= <GND>
+LED[3] <= <GND>
+LED[4] <= <GND>
+LED[5] <= <GND>
+LED[6] <= <GND>
+LED[7] <= <GND>
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+SW[0] => x.IN1
+SW[1] => y.IN1
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+
+
+|DE0_NANO|andor_str:inst1
+a => u1.IN0
+a => u2.IN0
+b => u1.IN1
+b => u2.IN1
+q0 <= u1.DB_MAX_OUTPUT_PORT_TYPE
+q1 <= u2.DB_MAX_OUTPUT_PORT_TYPE
+
+

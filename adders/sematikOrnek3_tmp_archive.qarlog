@@ -1,0 +1,27 @@
+Quartus II Archive log --	C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematikOrnek3_tmp_archive.qarlog
+
+Archive:	C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematikOrnek3_tmp_archive.qar
+Date:		Fri Sep 04 15:06:24 2020
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/fourbitcounter.bdf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/fulladder.bdf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/halfadder.bdf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/incremental_db/compiled_partitions/sematik3_top.db_info
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/output_files/Chain7.cdf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematik3_top.bdf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematik3_top.qsf
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematik3_top.sdc
+C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematikOrnek3.qpf
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Sep 04 15:06:30 2020
+Source archive file:	C:/Users/Hakan/Desktop/Fpga Egitim/adders/sematikOrnek3_tmp_archive.qar
+Archive was extracted into	C:/Users/Hakan/Desktop/Fpga Egitim/SematikOrnek4/
+		 - successfully.

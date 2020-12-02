@@ -1,0 +1,27 @@
+|DE0_NANO
+CLOCK_50 => ~NO_FANOUT~
+LED[0] <= mymodule_df:m1.port2
+LED[1] <= mymodule_df:m1.port2
+LED[2] <= <GND>
+LED[3] <= <GND>
+LED[4] <= <GND>
+LED[5] <= <GND>
+LED[6] <= <GND>
+LED[7] <= <GND>
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+SW[0] => a[0].IN1
+SW[1] => a[1].IN1
+SW[2] => b[0].IN1
+SW[3] => b[1].IN1
+
+
+|DE0_NANO|mymodule_df:m1
+a[0] => c.IN0
+a[1] => c.IN0
+b[0] => c.IN1
+b[1] => c.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

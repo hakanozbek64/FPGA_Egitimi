@@ -1,0 +1,33 @@
+|DE0_NANO
+CLOCK_50 => CLOCK_50.IN2
+LED[0] <= d_ff:dff1.port3
+LED[1] <= d_ff_full:dff2.port4
+LED[2] <= <GND>
+LED[3] <= <GND>
+LED[4] <= <GND>
+LED[5] <= <GND>
+LED[6] <= <GND>
+LED[7] <= <GND>
+KEY[0] => reset_n.IN1
+KEY[1] => ~NO_FANOUT~
+SW[0] => d.IN2
+SW[1] => en.IN2
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+
+
+|DE0_NANO|d_ff:dff1
+clk => q~reg0.CLK
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO|d_ff_full:dff2
+clk => q~reg0.CLK
+reset_n => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

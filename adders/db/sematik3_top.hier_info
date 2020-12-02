@@ -1,0 +1,357 @@
+|sematik3_top
+LED[0] <= fourbitcounter:inst6.Q[0]
+LED[1] <= fourbitcounter:inst6.Q[1]
+LED[2] <= fourbitcounter:inst6.Q[2]
+LED[3] <= fourbitcounter:inst6.Q[3]
+CLK => fourbitcounter:inst6.CLK
+CLK => fourbitcounter:inst5.CLK
+CLK => fourbitcounter:inst4.CLK
+CLK => fourbitcounter:inst3.CLK
+CLK => fourbitcounter:inst2.CLK
+CLK => fourbitcounter:inst.CLK
+CLK => fourbitcounter:inst7.CLK
+
+
+|sematik3_top|fourbitcounter:inst6
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst6|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst6|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst6|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst6|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst5
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst5|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst5|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst5|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst5|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst4
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst4|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst4|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst4|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst4|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst3
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst3|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst3|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst3|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst3|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst2
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst2|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst2|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst2|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst2|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst7
+Cout <= halfadder:inst5.C
+CLK => inst12.CLK
+CLK => inst9.CLK
+CLK => inst8.CLK
+CLK => inst7.CLK
+Cin => halfadder:inst.B
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst7|halfadder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst7|halfadder:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst7|halfadder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sematik3_top|fourbitcounter:inst7|halfadder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

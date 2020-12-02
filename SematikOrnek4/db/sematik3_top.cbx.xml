@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sematik3_top">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sematik3_top|mux2x1:inst1|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_arc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sematik3_top|rom:inst9|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_nb91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
